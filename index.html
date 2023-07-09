@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fontawesome.com/">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <title>Digi'Tech</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo"><span>D</span>igi'<span>T</span>ech</a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+            <ul class="navbar">
+                <li><a href="#banniere" onclick="toggleMenu();">Accueil</a></li>
+                <li><a href="#apropos" onclick="toggleMenu();">A Propos</a></li>
+                <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+                <li><a href="#equipe" onclick="toggleMenu();">Equipe</a></li>
+                <li><a href="#realisation" onclick="toggleMenu();">Réalisation</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+                <a href="#" class="btn-reserve" onclick="toggleMenu();">OBTENIR UN DEVIS</a>
+            </ul>
+        </header>
+        <section class="banniere" id="banniere">
+            <div class="contenu">
+                <h2>Transformez Votre Avenir Numérique <br> Ave  Des Solutions Innovantes</h2>
+                <P>Des srervices numériques spécialement Conçus pour
+                    les entreprises leur permettant de se concentrer 
+                    sur leur cœur d’activité sans se soucier de la complexité technique 
+                </P>
+                <a href="/_services/services.html" class="btn1">Service</a>
+                <a href="#contact" class="btn2">Contact</a>
+            </div>
+        </section>
+        <section class="apropos" id="apropos">
+            <div class="row">
+                <div class="col50">
+                    <h2 class="titre-texte"><span>À</span> propos de Digi'Tech</h2>
+                    <div class="texte-apropos">
+                        <br><p>Digi'tech est une startup spécialisée dans la création de solutions TIC innovantes dans divers secteurs, tels que l'agriculture, l'éducation et la propositio de solutions pour les petites et grandes entreprises.</p>
+                        <br><p>Nous développons et offrons nos propres solutions personnalisées, comprenant des outils, des applications et bien plus encore, à nos clients. Notre équipe talentueuse de professionnels des TIC est passionnée par l'utilisation de la technologie pour résoudre les défis actuels et futurs auxquels nos clients sont confrontés.</p>
+                        <br><p>En plus de nos solutions prêtes à l'emploi, nous accompagnons également nos clients dans la réalisation de leurs propres projets en leur apportant notre appui et nos conseils. Nous travaillons en étroite collaboration avec nos clients pour comprendre leurs besoins spécifiques et leur fournir des solutions sur mesure qui répondent à leurs objectifs commerciaux.</p>
+                        <br><p>En tant que partenaire technologique fiable, nous offrons également des services d'hébergement cloud sécurisés avec une maintenance continue. Nos clients peuvent compter sur nous pour assurer la disponibilité et la sécurité de leurs applications et données, tout en leur offrant une tranquillité d'esprit.</p>
+                    </div>
+                </div>
+                <div class="col50">
+                    <div class="img">
+                        <img src="./images/p2.png" alt="image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--SERVICES #1-->
+        <section class="services" id="services">
+            <div class="titre">
+                <h2 class="titre-texte"><span>N</span>os  <span>S</span>ervices</h2>
+                <!--Box non hidden -->
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="imbox">
+                        <img src="./images/web.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Application Web</h2>
+                        <br><h5>Nous mettons à votre disposition des applications web performantes et sécurisées selon vos besoins.</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="./images/bureau.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Application de bureau</h2>
+                        <br><h5>                            Nous proposons des applications pour vos ordinateurs afin de gérer vos tâches de façon automatisée.</h5>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="./images/mobile.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Application mobile</h2>
+                        <br><h4>Nous concevons et réalisons des applications mobiles en fonction de vos besoins.</h4>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="imbox">
+                        <img src="./images/ux.png" alt="">
+                    </div>
+                    <div class="text">
+                        <h2>Prototype UI/UX Design</h2>
+                        <br><h4>Nous faisons des maquettes d'applications qui permettront aux développeurs de mieux appréhender l'aspect visuel de vos applications.</h4>
+                    </div>
+                </div>
+                <!--box hidden-->    
+                <div class="box hidden">
+                    <div class="imbox">
+                      <img src="./images/cmanager.png" alt="">
+                    </div>
+                    <div class="text">
+                      <h2>Community management</h2>
+                      <br>
+                      <h4>Notre service de community management vous permet de renforcer 
+                        votre présence en ligne et de cultiver une communauté engagée autour 
+                        de votre marque. Chez [Nom de votre entreprise], nous comprenons l'importance 
+                        des médias sociaux dans la construction d'une image de marque solide et dans l'établissement 
+                        de relations durables avec vos clients.
+                        <br><br>Notre équipe de community managers expérimentés travaillera
+                         en étroite collaboration avec vous pour développer une stratégie de 
+                         médias sociaux personnalisée qui correspond à vos objectifs commerciaux et à 
+                         votre public cible. Nous nous engageons à comprendre votre marque, votre voix et vos valeurs 
+                         afin de créer un contenu attrayant et pertinent pour votre communauté.
+                      </h4>
+                    </div>
+                </div>
+          
+                <div class="box hidden">
+                <div class="imbox">
+                    <img src="./images/SEO.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>Référencement Web</h2>
+                    <br>
+                    <h4>Le référencement web, également connu sous le nom de SEO (Search Engine Optimization), 
+                        est un élément clé pour augmenter la visibilité de votre site web et attirer un trafic organique de qualité.
+                        Chez Digi'Tech, nous proposons des services de référencement web professionnels pour vous aider
+                        à obtenir une meilleure position dans les résultats des moteurs de recherche tels que Google, Bing et Yahoo.
+                        <br><br>Notre équipe d'experts en référencement web possède une solide expertise dans les stratégies 
+                        de SEO et suit les meilleures pratiques du secteur pour maximiser la visibilité de votre site. 
+                        Voici comment nous pouvons vous aider à améliorer votre référencement web :
+                    </h4>
+                </div>
+                </div>
+          
+                <div class="box hidden">
+                <div class="imbox">
+                    <img src="./images/SEO.png" alt="">
+                </div>
+                <div class="text">
+                    <h2>Référencement Web</h2>
+                    <br>
+                    <h4>Le référencement web, également connu sous le nom de SEO (Search Engine Optimization), 
+                        est un élément clé pour augmenter la visibilité de votre site web et attirer un trafic organique de qualité.
+                        Chez Digi'Tech, nous proposons des services de référencement web professionnels pour vous aider
+                        à obtenir une meilleure position dans les résultats des moteurs de recherche tels que Google, Bing et Yahoo.
+                        <br><br>Notre équipe d'experts en référencement web possède une solide expertise dans les stratégies 
+                        de SEO et suit les meilleures pratiques du secteur pour maximiser la visibilité de votre site. 
+                        Voici comment nous pouvons vous aider à améliorer votre référencement web :
+                    </h4>
+                </div>
+                </div>
+
+            </div>
+            <div class="titre">
+                <a href="#" class="btn1 voir-plus">Voir Plus</a>
+            </div>
+        </section> 
+        <!-- section Team 1
+            <section class="equipe" id="equipe">
+            <div class="titres">
+                <h3 class="titre-texte"><span>E</span>quipes <span>D</span>igi'<span>T</span>ech</h3>
+            </div>
+            <div class="contenu">
+                <div class="box">
+                    <div class="inbox">
+                        <img src="images/moi.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Cheikh Abdou Khadre DIALLO</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inbox">
+                        <img src="images/moi.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Cheikh Abdou Khadre DIALLO</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inbox">
+                        <img src="images/moi.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Cheikh Abdou Khadre DIALLO</h3>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="inbox">
+                        <img src="images/moi.jpeg" alt="">
+                    </div>
+                    <div class="text">
+                        <h3> Cheikh Abdou Khadre DIALLO</h3>
+                    </div>
+                </div>
+            </div>
+       </section>
+        SERVICES FIN-->
+
+
+
+       <!-- section Team 2 -->
+       <section class="team" id="equipe">
+        <div class="center">
+            <h1><span>E</span>quipes <span>D</span>igi'<span>T</span>ech</h1>
+        </div>
+        <divc class="team-content">
+            <div class="boxe">
+                <img src="img/01.png" alt="">
+                <h3>Cheikh Abdou Khadre DIALLO</h3>
+                <h5>Président Directeur Géneral</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+					<a href="#"><i class="ri-facebook-box-fill"></i></a>
+					<a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="boxe">
+                <img src="img/02.png" alt="">
+                <h3>Cheikh Abdou Khadre DIALLO</h3>
+                <h5>Directrice Exécutif</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+					<a href="#"><i class="ri-facebook-box-fill"></i></a>
+					<a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="boxe">
+                <img src="img/03.png" alt="">
+                <h3>Cheikh Abdou Khadre DIALLO</h3>
+                <h5>Sécretaire Génral</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+					<a href="#"><i class="ri-facebook-box-fill"></i></a>
+					<a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="boxe">
+                <img src="img/04.png" alt="">
+                <h3>Cheikh Abdou Khadre DIALLO</h3>
+                <h5>Community Management</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+					<a href="#"><i class="ri-facebook-box-fill"></i></a>
+					<a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="boxe">
+                <img src="img/01.png" alt="">
+                <h3>Cheikh Abdou Khadre DIALLO</h3>
+                <h5>Social Management</h5>
+                <div class="icons">
+                    <a href="#"><i class="ri-twitter-fill"></i></a>
+					<a href="#"><i class="ri-facebook-box-fill"></i></a>
+					<a href="#"><i class="ri-instagram-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+       </section>
+        <section class="contact" id="contact">
+            <div class="titre noir">
+                <h2 class="titre-textes"><span>C</span>ontact</h2>
+            </div>
+            <div class="contactform">
+                <h3>Avez vous besoin d'une information ?</h3>
+                <div class="inputboite">
+                    <input type="text" placeholder="Nom & Prénom">
+                </div>
+                <div class="inputboite">
+                    <input type="text" placeholder="Email">
+                </div>
+                <div class="inputboite">
+                    <input type="text" placeholder="Message">
+                </div>
+                <div class="inputboite">
+                    <input type="submit" value="envoyer">
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="containers">
+                <div class="rows">
+                    <div class="footer-col">
+                        <h4>A propos</h4>
+                        <ul>
+                            <li><a href="#">Qui sommes-nous</a></li>
+                            <li><a href="#">Nos services</a></li>
+                            <li><a href="#">politique de confidentialité</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Liens utils</h4>
+                        <ul>
+                            <li><a href="#">A propos</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">equipe</a></li>
+                            <li><a href="#">Réalisation</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Liens utils</h4>
+                        <ul>
+                            <li><a href="#apropos">A propos</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#equipe">equipe</a></li>
+                            <li><a href="#realisation">Réalisation</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>Suivez-nous</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+
+
+
+
+
+
+
+
+
+    </body>
+    <script type="text/javascript">
+        window.addEventListener('scroll', function(){
+        const header =document.querySelector('header');
+        header.classList.toggle("sticky", window.scrollY > 0 );
+        });
+
+        function toggleMenu(){
+        const tmenuToggle = document.querySelector('.menuToggle');
+        const navbar = document.querySelector('.navbar');
+        navbar.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+        }
+    </script>
+
+    <!--Sccript voir plus-->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var voirPlusLink = document.querySelector('.voir-plus');
+            var contenuSupplementaire = document.querySelectorAll('.contenu .box.hidden');
+            
+            voirPlusLink.addEventListener('click', function (e) {
+                e.preventDefault();
+                for (var i = 0; i < contenuSupplementaire.length; i++) {
+                    contenuSupplementaire[i].classList.toggle('hidden');
+                }
+                voirPlusLink.textContent = voirPlusLink.textContent === 'Voir Plus' ? 'Voir Moins' : 'Voir Plus';
+            });
+        });
+    </script>    
+    
+</html>
